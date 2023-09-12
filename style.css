@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+  background-image: linear-gradient(
+    to top right,
+    rgba(233, 43, 5, 0.8),
+    rgba(213, 54, 123, 0.6)
+  );
+  background-repeat: no-repeat;
+  /* background-position: bottom; */
+}
+.main__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.slackDisplayImage {
+  display: inline-block;
+  width: 35%;
+  border-radius: 50%;
+  margin: 1rem;
+}
+.slackUserName {
+  font-size: 3rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+p {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+.githubURL {
+  text-decoration: none;
+  padding: 1.5rem 3rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
